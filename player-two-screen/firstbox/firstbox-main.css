@@ -1,0 +1,55 @@
+.first-box-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-box-main .singer-img {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+.first-box-main .singer-img img {
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+.first-box-main .singer-name {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: var(--space-top);
+  opacity: 0.8;
+}
+.first-box-main .singer-genre {
+  opacity: 0.4;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.first-box-main-bars {
+  display: flex;
+  justify-content: center;
+}
+
+.first-box-main-bars button {
+  margin: 15px 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: var(--shadow);
+  opacity: 0.8;
+}
+
+.first-box-main-bars .shuffle {
+  color: rgb(209, 205, 205);
+  background-color: black;
+  opacity: 0.8;
+}
+
+.first-box-main-bars .like span {
+  color: rgba(0, 0, 0, 0.5);
+}

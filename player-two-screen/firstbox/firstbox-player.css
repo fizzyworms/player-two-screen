@@ -1,0 +1,35 @@
+.frist-box-playbar {
+  position: absolute;
+  left: 15px;
+  background-color: black;
+  width: 90%;
+  height: 60px;
+  border-radius: 30px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.playbar-song .playbar-singer {
+  font-size: 13px;
+  color: rgb(177, 173, 173);
+  margin-bottom: 8px;
+}
+
+.playbar-song .playbar-song {
+  font-size: 14px;
+}
+
+.frist-box-playbar .playbar-btns button {
+  border: none;
+  color: white;
+  background-color: transparent;
+  margin: 3px;
+}
+
+.frist-box-playbar .playbar-btns button:nth-child(2) {
+  font-size: 18px;
+}

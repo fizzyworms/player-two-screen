@@ -1,0 +1,21 @@
+.second-box {
+  position: relative;
+  background-color: white;
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 10px 0px;
+}
+
+.second-box-header {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--space-top) var(--space-side);
+}
+
+.second-box-header button {
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  opacity: 0.6;
+}

@@ -1,0 +1,50 @@
+.first-box-lists {
+  margin: 0px 15px;
+}
+
+.first-box-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: var(--border-radius);
+  height: 60px;
+}
+
+.first-box-list:nth-child(2) {
+  box-shadow: var(--shadow);
+}
+
+.first-box-list .list-img {
+  position: relative;
+}
+
+.first-box-list .list-img img {
+  position: absolute;
+  top: -20px;
+  bottom: 0px;
+  width: 40px;
+  border-radius: var(--border-radius);
+  margin-left: 15px;
+}
+
+.first-box-list .list-song {
+  float: left;
+  width: 150px;
+  margin-left: 60px;
+}
+
+.first-box-list .list-song-singer {
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.first-box-list .list-song-title {
+  font-size: 14px;
+  font-weight: 800;
+}
+.ellipsis {
+  margin-right: var(--space-side);
+  opacity: 0.3;
+}

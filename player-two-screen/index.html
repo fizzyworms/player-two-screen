@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="big-box">
+      <div class="first-box">
+        <div class="first-box-header">
+          <button><i class="fas fa-arrow-left"></i></button>
+          <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="first-box-main">
+          <div class="singer-img"><img src="imgs/1.jpeg" alt="singer" /></div>
+          <div class="singer-name">Ariana Grande</div>
+          <div class="singer-genre"><span>POP, R&B</span></div>
+          <div class="first-box-main-bars">
+            <button class="shuffle">Shuffle</button>
+            <button class="like">
+              <i class="fas fa-heart"></i><span> 212971</span>
+            </button>
+          </div>
+        </div>
+        <ul class="first-box-lists">
+          <li class="first-box-list">
+            <div class="list-img">
+              <img src="imgs/4.jpeg" alt="album-cover" />
+            </div>
+            <div class="list-song">
+              <div class="list-song-singer">Ariana Grande</div>
+              <div class="list-song-title">Dangerous Woman</div>
+            </div>
+            <div class="ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+          <li class="first-box-list">
+            <div class="list-img">
+              <img src="imgs/2.jpeg" alt="album-cover" />
+            </div>
+            <div class="list-song">
+              <div class="list-song-singer">Ariana Grande</div>
+              <div class="list-song-title">R.E.M</div>
+            </div>
+            <div class="ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+          <li class="first-box-list">
+            <div class="list-img">
+              <img src="imgs/3.jpeg" alt="album-cover" />
+            </div>
+            <div class="list-song">
+              <div class="list-song-singer">Ariana Grande</div>
+              <div class="list-song-title">Everything</div>
+            </div>
+            <div class="ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+          <li class="first-box-list">
+            <div class="list-img">
+              <img src="imgs/5.jpeg" alt="album-cover" />
+            </div>
+            <div class="list-song">
+              <div class="list-song-singer">Ariana Grande</div>
+              <div class="list-song-title">Right there</div>
+            </div>
+            <div class="ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+        </ul>
+        <div class="frist-box-playbar">
+          <div class="playbar-song">
+            <div class="playbar-singer">Ariana Grande</div>
+            <div class="playbar-song">R.E.M</div>
+          </div>
+          <div class="playbar-btns">
+            <button class="btn"><i class="fas fa-angle-double-left"></i></button
+            ><button class="btn"><i class="fas fa-pause"></i></button
+            ><button class="btn">
+              <i class="fas fa-angle-double-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="second-box">
+        <div class="second-box-header">
+          <button><i class="fas fa-arrow-left"></i></button>
+          <button><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+        <div class="second-box-main">
+          <div class="second-img"><img src="imgs/2.jpeg" alt="" /></div>
+          <div class="second-song">R.E.M</div>
+          <disv class="second-singer">Ariana Grande</disv>
+        </div>
+        <div class="second-box-player">
+          <div class="song-time">
+            <div class="song-time-now"></div>
+            <div class="song-time-max"></div>
+          </div>
+          <input
+            type="range"
+            class="playbar"
+            min="0"
+            max="4"
+            step="0.01"
+            value="0"
+            oninput="document.querySelector('.song-time-now').innerHTML=this.value;"
+          />
+          <div class="second-box-last">
+            <div class="second-box-playBtns">
+              <button class="btn playbtn">
+                <i class="fas fa-redo-alt"></i>
+              </button>
+              <button class="btn playbtn">
+                <i class="fas fa-angle-double-left"></i></button
+              ><button class="btn playbtn">
+                <i class="fas fa-play-circle"></i>
+              </button>
+              <button class="btn playbtn">
+                <i class="fas fa-angle-double-right"></i></button
+              ><button class="btn playbtn">
+                <i class="fas fa-random"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

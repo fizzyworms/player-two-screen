@@ -1,0 +1,12 @@
+.first-box-header {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--space-top) var(--space-side);
+}
+
+.first-box-header button {
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  opacity: 0.6;
+}
